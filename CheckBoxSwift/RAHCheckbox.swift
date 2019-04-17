@@ -24,23 +24,23 @@ protocol RAHCheckboxDelegate: AnyObject {
     public required init?(coder: NSCoder)
     public override init(frame: CGRect)
  
-//          Background Color
+//      Background Color
     public func set(backgroundColor: UIColor)
 
-//          Checkbox Characteristics
+//      Checkbox Characteristics
     public func set(boxBorderColor: UIColor)
     public func set(boxBorderWidth: CGFloat)
 
-//          Checkmark Characteristics
+//       Checkmark Characteristics
     public func set(checkmarkColor: UIColor)
     public func set(checkmarkStrokeWidth: CGFloat)
     public func use(XMark: Bool)
 
-//          Checkmark Animation
+//       Checkmark Animation
     public func animateMark(Bool)
     public func set(animationDuration: CGFloat)
 
-//          Checkmark: get state on/off, set state
+//       Checkmark: get state on/off, set state
     public func isOn() -> Bool
     public func setOn(Bool, animated: Bool)
 */
